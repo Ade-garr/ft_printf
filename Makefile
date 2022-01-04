@@ -3,28 +3,28 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ade-garr <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: adegarr <adegarr@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/15 15:12:32 by ade-garr          #+#    #+#              #
-#    Updated: 2020/01/27 17:26:28 by ade-garr         ###   ########.fr        #
+#    Updated: 2022/01/04 16:02:38 by adegarr          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS += ft_atoi.c
-SRCS += ft_strlen.c
-SRCS += ft_printf.c
-SRCS += ft_printf2.c
-SRCS += ft_printf3.c
-SRCS += ft_printf4.c
-SRCS += ft_printf5.c
-SRCS += ft_printf6.c
-SRCS += ft_printf7.c
+SRCS += srcs/ft_atoi.c
+SRCS += srcs/ft_strlen.c
+SRCS += srcs/ft_printf.c
+SRCS += srcs/ft_printf2.c
+SRCS += srcs/ft_printf3.c
+SRCS += srcs/ft_printf4.c
+SRCS += srcs/ft_printf5.c
+SRCS += srcs/ft_printf6.c
+SRCS += srcs/ft_printf7.c
 
 OBJS	= ${SRCS:.c=.o}
 
 NAME	= libftprintf.a
 
-INCLUDES = ./
+INCLUDES = ./includes/
 
 CC		= clang
 
