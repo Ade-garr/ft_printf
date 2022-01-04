@@ -10,3 +10,5 @@
 	- flags : "-0.*+" ✅
 	- précision ✅
 	- largeur de champ ✅
+
+⚠️ Subject given slightly differs from actual project.
