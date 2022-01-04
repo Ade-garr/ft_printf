@@ -6,7 +6,7 @@
 
 - ```make``` => will create the library libftprintf.a that you can include to call ft_printf function
 - support :
-	- converions : "%c %s %p %d %i %u %x %X %% %n" ✅
+	- converions : "%c %s %p %d %i %u %x %X %%" ✅
 	- flags : "-0.*+" ✅
 	- précision ✅
 	- largeur de champ ✅
