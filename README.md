@@ -1,8 +1,8 @@
-### Welcome to my printf repository 👋
+# 📌 ft_printf 📌
 
-⭐️ The goal of this subject is to recode printf.
+The aim of this subject is to recode printf.
 
-## 💡 Usage
+## 🔑 How to
 
 - ```make``` => will create the library libftprintf.a that you can include to call ft_printf function
 - support :
